@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "10.0" }
-
+  s.source       = { :git => "https://github.com/pencilCool/react-native-amap3d.git" }
   s.source_files = "lib/ios/**/*.{h,m,mm,swift}"
   s.swift_version = '5.0'
   s.dependency "React"
